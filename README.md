@@ -16,10 +16,13 @@ A simple 32x32 pixels cursor for Linux that has a tribal inspired style.
 <p align="center">
 	<img src="src/left_ptr.png" alt="" />
 	<img src="src/hand2.png" alt="" />
+	<img src="src/openhand.png" alt="" />
+	<img src="src/closedhand.png" alt="" />
 	<img src="src/progress.png" alt="" />
 	<img src="src/watch.png" alt="" />
 	<img src="src/help.png" alt="" />
 	<img src="src/link.png" alt="" />
+	<img src="src/crosshair.png" alt="" />
 	<img src="src/not-allowed.png" alt="" />
 	<br />
 	<img src="src/xterm.png" alt="" />
