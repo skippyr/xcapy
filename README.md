@@ -44,14 +44,14 @@ A tribal inspired 32x32 pixels cursor for Linux.
 
 ## ❡ Install
 
-### Dependencies
+### ¦ Dependencies
 
 The following dependencies are required to install it:
 
 &emsp;**1.**&ensp;**git**: it will be used to clone this repository.\
 &emsp;**2.**&ensp;**xcursorgen**, **make**: they will be used to build and install it.
 
-### Procedures
+### ¦ Procedures
 
 Using a terminal, follow these steps:
 
