@@ -11,7 +11,7 @@
 
 ## ❡ About
 
-A simple 32x32 pixels cursor for Linux that has a tribal inspired style.
+A tribal inspired 32x32 pixels cursor for Linux.
 
 <p align="center">
 	<img src="src/left_ptr.png" alt="" />
