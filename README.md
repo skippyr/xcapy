@@ -4,8 +4,11 @@
 <h1 align="center">⊼⊵⊼⊵&ensp;xcapy&ensp;⊼⊵⊼⊵</h1>
 <p align="center">
 	<img src="https://img.shields.io/github/license/skippyr/xcapy?style=social" alt="" />
+	&nbsp;
 	<img src="https://img.shields.io/github/v/tag/skippyr/xcapy?style=social" alt="" />
+	&nbsp;
 	<img src="https://img.shields.io/github/commit-activity/t/skippyr/xcapy?style=social" alt="" />
+	&nbsp;
 	<img src="https://img.shields.io/github/stars/skippyr/xcapy?style=social" alt="" />
 </p>
 
