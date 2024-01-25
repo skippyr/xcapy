@@ -14,7 +14,7 @@
 
 ## ❡ About
 
-A tribal inspired 32x32 pixels cursor for Linux.
+A tribal inspired 32x32 pixels retro cursor theme for Linux.
 
 <p align="center">
 	<img src="src/left_ptr.png" alt="" />
@@ -40,7 +40,7 @@ A tribal inspired 32x32 pixels cursor for Linux.
 	<img src="src/zoom-in.png" alt="" />
 	<img src="src/zoom-out.png" alt="" />
 </p>
-<p align="center"><sup><strong>Caption:</strong> a preview of the different states of the cursor.</sup></p>
+<p align="center"><sup><strong>Caption:</strong> a preview of the different cursors in the theme.</sup></p>
 
 ## ❡ Install
 
