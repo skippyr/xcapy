@@ -23,6 +23,7 @@ A tribal inspired 32x32 pixels retro cursor theme for Linux.
 	<img src="src/closedhand.png" alt="" />
 	<img src="src/progress.png" alt="" />
 	<img src="src/watch.png" alt="" />
+	<img src="src/context-menu.png" alt="" />
 	<img src="src/help.png" alt="" />
 	<img src="src/link.png" alt="" />
 	<img src="src/crosshair.png" alt="" />
@@ -32,9 +33,17 @@ A tribal inspired 32x32 pixels retro cursor theme for Linux.
 	<img src="src/vertical-text.png" alt="" />
 	<br />
 	<img src="src/all-scroll.png" alt="" />
+	<img src="src/n-resize.png" alt="" />
+	<img src="src/s-resize.png" alt="" />
 	<img src="src/ns-resize.png" alt="" />
+	<img src="src/e-resize.png" alt="" />
+	<img src="src/w-resize.png" alt="" />
 	<img src="src/ew-resize.png" alt="" />
+	<img src="src/ne-resize.png" alt="" />
+	<img src="src/sw-resize.png" alt="" />
 	<img src="src/nesw-resize.png" alt="" />
+	<img src="src/nw-resize.png" alt="" />
+	<img src="src/se-resize.png" alt="" />
 	<img src="src/nwse-resize.png" alt="" />
 	<br />
 	<img src="src/zoom-in.png" alt="" />
