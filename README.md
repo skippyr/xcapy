@@ -33,17 +33,17 @@ A tribal inspired 32x32 pixels retro cursor theme for Linux.
 	<img src="src/vertical-text.png" alt="" />
 	<br />
 	<img src="src/all-scroll.png" alt="" />
-	<img src="src/n-resize.png" alt="" />
-	<img src="src/s-resize.png" alt="" />
+	<img src="src/sb_up_arrow.png" alt="" />
+	<img src="src/sb_down_arrow.png" alt="" />
 	<img src="src/ns-resize.png" alt="" />
-	<img src="src/e-resize.png" alt="" />
-	<img src="src/w-resize.png" alt="" />
+	<img src="src/sb_right_arrow.png" alt="" />
+	<img src="src/sb_left_arrow.png" alt="" />
 	<img src="src/ew-resize.png" alt="" />
-	<img src="src/ne-resize.png" alt="" />
-	<img src="src/sw-resize.png" alt="" />
+	<img src="src/top_right_corner.png" alt="" />
+	<img src="src/bottom_left_corner.png" alt="" />
 	<img src="src/nesw-resize.png" alt="" />
-	<img src="src/nw-resize.png" alt="" />
-	<img src="src/se-resize.png" alt="" />
+	<img src="src/top_left_corner.png" alt="" />
+	<img src="src/bottom_right_corner.png" alt="" />
 	<img src="src/nwse-resize.png" alt="" />
 	<br />
 	<img src="src/zoom-in.png" alt="" />
