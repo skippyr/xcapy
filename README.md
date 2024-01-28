@@ -79,11 +79,10 @@ cd xcapy;
 &emsp;**3.**&ensp;Use make to compile and install it:
 
 ```sh
-make install clean;
+make uninstall install clean;
 ```
 
-&emsp;**4.**&ensp;Apply the theme using your system settings.
-
+&emsp;**4.**&ensp;Apply the theme using your system settings.\
 &emsp;**5.**&ensp;Reopen your desktop session.
 
 
