@@ -20,7 +20,7 @@ uninstall:
 
 xcapy:
 	mkdir -p xcapy/cursors;
-	cp index.theme LICENSE xcapy;
+	cp src/index.theme LICENSE xcapy;
 	cp -d src/symlinks/* xcapy/cursors;
 	for c in $(wildcard src/*.cfg);\
 	do\
