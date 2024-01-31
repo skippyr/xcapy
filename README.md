@@ -57,7 +57,7 @@ A tribal inspired 32x32 pixels retro cursor theme for Linux.
 
 The following dependencies are required to install it:
 
-- **git**: it will be used to clone this repository.\
+- **git**: it will be used to clone this repository.
 - **xcursorgen**, **make**: they will be used to build and install it.
 
 ### Procedures
@@ -82,7 +82,7 @@ cd xcapy;
 make uninstall install clean;
 ```
 
-- Apply the theme using your system settings.
+- Apply the theme in your system settings.
 - Reopen your desktop session.
 
 
