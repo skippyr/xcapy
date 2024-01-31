@@ -76,7 +76,7 @@ git clone https://github.com/skippyr/xcapy;
 cd xcapy;
 ```
 
-&emsp;**3.**&ensp;Use make to compile and install it (use sudo for a system-wide scope):
+&emsp;**3.**&ensp;Use make to build and install it (use sudo for a system-wide scope):
 
 ```sh
 make uninstall install clean;
