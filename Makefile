@@ -1,4 +1,8 @@
-ICONSPATH:=~/.local/share/icons
+ifeq ($(shell id -u), 0)
+    ICONSPATH := /usr/share/icons
+else
+    ICONSPATH := ~/.local/share/icons
+endif
 
 .PHONY: all clean install uninstall
 
