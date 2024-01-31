@@ -27,6 +27,3 @@ xcapy:
 		f=$${c##*/};\
 		xcursorgen $${c} > xcapy/cursors/$${f%.*};\
 	done
-
-help:
-	@echo ${ICONSPATH}
