@@ -53,45 +53,45 @@ A tribal inspired 32x32 pixels retro cursor theme for Linux.
 
 ## ❡ Install
 
-### ¦ Dependencies
+### Dependencies
 
 The following dependencies are required to install it:
 
-&emsp;**1.**&ensp;**git**: it will be used to clone this repository.\
-&emsp;**2.**&ensp;**xcursorgen**, **make**: they will be used to build and install it.
+- **git**: it will be used to clone this repository.\
+- **xcursorgen**, **make**: they will be used to build and install it.
 
-### ¦ Procedures
+### Procedures
 
 Using a terminal, follow these steps:
 
-&emsp;**1.**&ensp;Clone this repository using git:
+- Clone this repository using git:
 
 ```sh
-git clone https://github.com/skippyr/xcapy;
+git clone --depth 1 https://github.com/skippyr/xcapy;
 ```
 
-&emsp;**2.**&ensp;Access the repository directory using cd:
+- Access the repository directory:
 
 ```sh
 cd xcapy;
 ```
 
-&emsp;**3.**&ensp;Use make to build and install it (use sudo for a system-wide scope):
+- Use make to build and install it (use sudo for a system-wide scope):
 
 ```sh
 make uninstall install clean;
 ```
 
-&emsp;**4.**&ensp;Apply the theme using your system settings.\
-&emsp;**5.**&ensp;Reopen your desktop session.
+- Apply the theme using your system settings.
+- Reopen your desktop session.
 
 
 ## ❡ Uninstall
 
 Using a terminal, follow these steps:
 
-&emsp;**1.**&ensp;Go back to the repository directory.\
-&emsp;**2.**&ensp;Use make to uninstall it (use sudo for a system-wide scope):
+- Go back to the repository directory.
+- Use make to uninstall it (use sudo for a system-wide scope):
 
 ```sh
 make uninstall;
@@ -110,7 +110,3 @@ By contributing to this project, you must agree to license your work under the s
 ## ❡ License
 
 This project is licensed under the BSD-3-Clause License. Refer to the LICENSE file that comes in its source code for license and copyright details.
-
-&nbsp;
-
-<p align="center"><sup><strong>≥v≥v&ensp;Here Are Dragons!&ensp;≥v≥v</strong><br />Made with love by skippyr <3</sup></p>
