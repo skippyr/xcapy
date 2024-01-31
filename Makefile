@@ -1,7 +1,7 @@
 ifeq ($(shell id -u), 0)
-    ICONSPATH := /usr/share/icons
+	ICONSPATH := /usr/share/icons
 else
-    ICONSPATH := ~/.local/share/icons
+	ICONSPATH := ~/.local/share/icons
 endif
 
 .PHONY: all clean install uninstall
@@ -27,3 +27,6 @@ xcapy:
 		f=$${c##*/};\
 		xcursorgen $${c} > xcapy/cursors/$${f%.*};\
 	done
+
+help:
+	@echo ${ICONSPATH}
