@@ -76,7 +76,7 @@ git clone https://github.com/skippyr/xcapy;
 cd xcapy;
 ```
 
-&emsp;**3.**&ensp;Use make to compile and install it (use sudo for a system-wide installation):
+&emsp;**3.**&ensp;Use make to compile and install it (use sudo for a system-wide scope):
 
 ```sh
 make uninstall install clean;
@@ -91,7 +91,7 @@ make uninstall install clean;
 Using a terminal, follow these steps:
 
 &emsp;**1.**&ensp;Go back to the repository directory.\
-&emsp;**2.**&ensp;Use make to uninstall it:
+&emsp;**2.**&ensp;Use make to uninstall it (use sudo for a system-wide scope):
 
 ```sh
 make uninstall;
