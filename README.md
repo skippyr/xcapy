@@ -14,7 +14,7 @@
 
 ## ❡ About
 
-A tribal inspired 32x32 old school retro cursor theme for Linux.
+A tribal inspired 32x32 old school cursor theme for Linux.
 
 <p align="center">
 	<img src="src/left_ptr.png" alt="" />
