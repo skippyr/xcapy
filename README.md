@@ -21,6 +21,7 @@
   <img alt="" src="src/progress.png" />
   <img alt="" src="src/watch.png" />
   <img alt="" src="src/context-menu.png" />
+  <img alt="" src="src/link.png" />
   <img alt="" src="src/help.png" />
   <img alt="" src="src/crosshair.png" />
   <img alt="" src="src/not-allowed.png" />
