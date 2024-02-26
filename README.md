@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="" src="ornament.webp" />
+  <img alt="" src="assets/ornament.webp" />
 </p>
 <h1 align="center">≥v≥v&ensp;xcapy&ensp;≥v≥v</h1>
 <p align="center">
@@ -11,8 +11,11 @@
   &nbsp;
   <img alt="" src="https://img.shields.io/github/stars/skippyr/xcapy?style=plastic&label=%E2%89%A5%20stars&labelColor=%2324130e&color=%23b8150d" />
 </p>
-<h2>❡ About</h2>
-<p>A tribal inspired 32x32 pixels cursor theme for Linux.</p>
+
+## ❡ About
+
+A tribal inspired 32x32 pixels cursor theme for Linux.
+
 <p align="center">
   <img alt="" src="src/left_ptr.png" />
   <img alt="" src="src/hand2.png" />
@@ -44,54 +47,61 @@
   <img alt="" src="src/nwse-resize.png" />
   <p align="center"><sup><strong>Caption:</strong> a preview of the different cursors in theme.</p>
 </p>
-<h2>❡ Install</h2>
-<h3>Dependencies</h3>
-<p>In order to install it, the following dependencies must be installed:</p>
-<ul>
-  <li><strong>git</strong>: it will be used to clone this repository.</li>
-  <li><strong>xcursorgen, make</strong>: they will be used to build and install it.</li>
-</ul>
-<h3>Procedures</h3>
-<p>To install it, follow these steps:</p>
-<ul>
-  <li>Clone its repository using <code>git</code>:</li>
+
+## ❡ Install
+
+### Dependencies
+
+The following dependencies must be installed before installing it:
+
+- **git**: it will be used to clone this repository.
+- **xcursorgen**, **make**: they will be used to build and install it.
+
+### Procedures
+
+- Clone this repository using `git`:
 
 ```sh
 git clone --depth 1 https://github.com/skippyr/xcapy;
 ```
 
-  <li>Access its repository directory:</li>
+- Access the repository directory using `cd`:
 
 ```sh
 cd xcapy;
 ```
 
-  <li>Use <code>make</code> to build and install it (use <code>sudo</code> for system wide scope):</li>
+- Use `make` to build and install the theme (use `sudo` for system wide scope):
 
 ```sh
 make uninstall install clean;
 ```
 
-  <li>Apply the cursor theme using your system settings.</li>
-  <li>Reopen your desktop session.</li>
-</ul>
-<h2>❡ Uninstall</h2>
-<p>To uninstall it, follow these steps:</p>
-<ul>
-  <li>Go back to its repository directory.</li>
-  <li>Use <code>make</code> to uninstall it (use <code>sudo</code> for system wide scope):</li>
+- Apply the cursor theme using your system settings.
+- Reopen your desktop session.
+
+## ❡ Uninstall
+
+- Go back to the repository directory.
+- Use `make` to uninstall the theme (use `sudo` for system wide scope):
 
 ```sh
 make uninstall;
 ```
 
-</ul>
-<h2>❡ Help</h2>
-<p>If you need help related to this project, open a new issue in its <a href="https://github.com/skippyr/xcapy/issues">issues page</a> or send me an <a href="mailto:skippyr.developer@gmail.com">e-mail</a> describing what is going on.</p>
-<h2>❡ Contributing</h2>
-<p>This project is open to review and possibly accept contributions, specially fixes and suggestions. If you are interested, send your contribution to its <a href="https://github.com/skippyr/xcapy/pulls">pull requests page</a> or to my <a href="mailto:skippyr.developer@gmail.com">e-mail</a>.</p>
-<a>By contributing to this project, you must agree to license your work under the same license that the project uses.</a>
-<h2>❡ License</h2>
-<p>This project is licensed under the BSD-3-Clause License. Refer to the <code>LICENSE</code> file that comes in its source code for license and copyright details.</p>
+## ❡ Help
+
+If you need help related to this project, open a new issue in its [issues pages](https://github.com/skippyr/xcapy/issues) or send me an [e-mail](mailto:skippyr.developer@gmail.com) describing what is going on.
+
+## ❡ Contributing
+
+This project is open to review and possibly accept contributions, specially fixes and suggestions. If you are interested, send your contribution to its [pull requests page](https://github.com/skippyr/xcapy/pulls) or to my [e-mail](mailto:skippyr.developer@gmail.com).
+
+By contributing to this project, you agree to license your work under the same license that the project uses.
+
+## ❡ License
+
+This project is licensed under the BSD-3-Clause License. Refer to the `LICENSE` file that comes in its source code for license and copyright details.
+
 &ensp;
 <p align="center"><sup><strong>≥v≥v&ensp;Here Are Dragons!&ensp;≥v≥</strong><br />Made with love by skippyr <3</sup></p>
