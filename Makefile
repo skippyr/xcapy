@@ -1,3 +1,4 @@
+SHELL:=bash
 ifeq ($(shell id -u), 0)
 	ICONS_PATH := /usr/share/icons
 else
