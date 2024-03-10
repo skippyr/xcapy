@@ -1,8 +1,8 @@
 SHELL:=bash
 ifeq ($(shell id -u), 0)
-	ICONS_PATH := /usr/share/icons
+	ICONS_PATH:=/usr/share/icons
 else
-	ICONS_PATH := ~/.local/share/icons
+	ICONS_PATH:=~/.local/share/icons
 endif
 
 .PHONY: all clean install uninstall
@@ -23,8 +23,8 @@ xcapy:
 	mkdir -p out/xcapy/cursors;
 	cp src/index.theme LICENSE out/xcapy;
 	cp -d src/symlinks/* out/xcapy/cursors;
-	for c in $(wildcard src/*.cfg); \
-	do \
-		f=$${c##*/}; \
-		xcursorgen $${c} > out/xcapy/cursors/$${f%.*}; \
+	for c in $(wildcard src/*.cfg);                                        \
+	do                                                                     \
+		f=$${c##*/};                                                   \
+		xcursorgen $${c} > out/xcapy/cursors/$${f%.*};                 \
 	done
