@@ -23,8 +23,8 @@ xcapy:
 	mkdir -p out/xcapy/cursors;
 	cp src/index.theme LICENSE out/xcapy;
 	cp -d src/symlinks/* out/xcapy/cursors;
-	for c in $(wildcard src/*.cfg);                                        \
-	do                                                                     \
-		f=$${c##*/};                                                   \
-		xcursorgen $${c} > out/xcapy/cursors/$${f%.*};                 \
+	for c in $(wildcard src/*.cfg); \
+	do \
+		f=$${c##*/}; \
+		xcursorgen $${c} > out/xcapy/cursors/$${f%.*}; \
 	done
