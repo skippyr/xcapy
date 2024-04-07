@@ -1,51 +1,51 @@
 <p align="center">
-    <img alt="" src="assets/ornament.webp" />
+  <img alt="" src="assets/ornament.webp" />
 </p>
 <h1 align="center">≥v≥v&ensp;xcapy&ensp;≥v≥v</h1>
 <p align="center">
-    <img alt="" src="https://img.shields.io/github/license/skippyr/xcapy?style=plastic&label=%E2%89%A5%20license&labelColor=%2324130e&color=%23b8150d" />
-    &nbsp;
-    <img alt="" src="https://img.shields.io/github/v/tag/skippyr/xcapy?style=plastic&label=%E2%89%A5%20tag&labelColor=%2324130e&color=%23b8150d" />
-    &nbsp;
-    <img alt="" src="https://img.shields.io/github/commit-activity/t/skippyr/xcapy?style=plastic&label=%E2%89%A5%20commits&labelColor=%2324130e&color=%23b8150d" />
-    &nbsp;
-    <img alt="" src="https://img.shields.io/github/stars/skippyr/xcapy?style=plastic&label=%E2%89%A5%20stars&labelColor=%2324130e&color=%23b8150d" />
+  <img alt="" src="https://img.shields.io/github/license/skippyr/xcapy?style=plastic&label=%E2%89%A5%20license&labelColor=%2324130e&color=%23b8150d" />
+  &nbsp;
+  <img alt="" src="https://img.shields.io/github/v/tag/skippyr/xcapy?style=plastic&label=%E2%89%A5%20tag&labelColor=%2324130e&color=%23b8150d" />
+  &nbsp;
+  <img alt="" src="https://img.shields.io/github/commit-activity/t/skippyr/xcapy?style=plastic&label=%E2%89%A5%20commits&labelColor=%2324130e&color=%23b8150d" />
+  &nbsp;
+  <img alt="" src="https://img.shields.io/github/stars/skippyr/xcapy?style=plastic&label=%E2%89%A5%20stars&labelColor=%2324130e&color=%23b8150d" />
 </p>
 
 ## ❡ About
 
-A tribal inspired 32x32 pixels cursor theme for Linux.
+A tribal looking 32x32 pixels cursor theme for Linux.
 
 <p align="center">
-    <img alt="" src="src/left_ptr.png" />
-    <img alt="" src="src/hand2.png" />
-    <img alt="" src="src/openhand.png" />
-    <img alt="" src="src/closedhand.png" />
-    <img alt="" src="src/progress.png" />
-    <img alt="" src="src/watch.png" />
-    <img alt="" src="src/context-menu.png" />
-    <img alt="" src="src/link.png" />
-    <img alt="" src="src/help.png" />
-    <img alt="" src="src/crosshair.png" />
-    <img alt="" src="src/not-allowed.png" />
-    <br />
-    <img alt="" src="src/xterm.png" />
-    <img alt="" src="src/vertical-text.png" />
-    <br />
-    <img alt="" src="src/all-scroll.png" />
-    <img alt="" src="src/sb_up_arrow.png" />
-    <img alt="" src="src/sb_down_arrow.png" />
-    <img alt="" src="src/ns-resize.png" />
-    <img alt="" src="src/sb_right_arrow.png" />
-    <img alt="" src="src/sb_left_arrow.png" />
-    <img alt="" src="src/ew-resize.png" />
-    <img alt="" src="src/top_right_corner.png" />
-    <img alt="" src="src/bottom_left_corner.png" />
-    <img alt="" src="src/nesw-resize.png" />
-    <img alt="" src="src/top_left_corner.png" />
-    <img alt="" src="src/bottom_right_corner.png" />
-    <img alt="" src="src/nwse-resize.png" />
-    <p align="center"><sup><strong>Caption:</strong> a preview of the different cursors in theme.</p>
+  <img alt="" src="src/left_ptr.png" />
+  <img alt="" src="src/hand2.png" />
+  <img alt="" src="src/openhand.png" />
+  <img alt="" src="src/closedhand.png" />
+  <img alt="" src="src/progress.png" />
+  <img alt="" src="src/watch.png" />
+  <img alt="" src="src/context-menu.png" />
+  <img alt="" src="src/link.png" />
+  <img alt="" src="src/help.png" />
+  <img alt="" src="src/crosshair.png" />
+  <img alt="" src="src/not-allowed.png" />
+  <br />
+  <img alt="" src="src/xterm.png" />
+  <img alt="" src="src/vertical-text.png" />
+  <br />
+  <img alt="" src="src/all-scroll.png" />
+  <img alt="" src="src/sb_up_arrow.png" />
+  <img alt="" src="src/sb_down_arrow.png" />
+  <img alt="" src="src/ns-resize.png" />
+  <img alt="" src="src/sb_right_arrow.png" />
+  <img alt="" src="src/sb_left_arrow.png" />
+  <img alt="" src="src/ew-resize.png" />
+  <img alt="" src="src/top_right_corner.png" />
+  <img alt="" src="src/bottom_left_corner.png" />
+  <img alt="" src="src/nesw-resize.png" />
+  <img alt="" src="src/top_left_corner.png" />
+  <img alt="" src="src/bottom_right_corner.png" />
+  <img alt="" src="src/nwse-resize.png" />
+  <p align="center"><sup><strong>Caption:</strong> a preview of the different cursors in theme.</p>
 </p>
 
 ## ❡ Install
@@ -62,19 +62,19 @@ The following dependencies must be installed before installing it:
 - Clone this repository using `git`:
 
 ```sh
-git clone --depth 1 https://github.com/skippyr/xcapy;
+git clone --depth 1 "https://github.com/skippyr/xcapy";
 ```
 
 - Access the repository directory using `cd`:
 
 ```sh
-cd xcapy;
+cd "xcapy";
 ```
 
-- Use `make` to build and install the theme (use `sudo` for system wide scope):
+- Use `make` to build and install the theme:
 
 ```sh
-make uninstall install clean;
+make install;
 ```
 
 - Apply the cursor theme using your system settings.
@@ -83,7 +83,7 @@ make uninstall install clean;
 ## ❡ Uninstall
 
 - Go back to the repository directory.
-- Use `make` to uninstall the theme (use `sudo` for system wide scope):
+- Use `make` to uninstall the theme:
 
 ```sh
 make uninstall;
@@ -101,7 +101,7 @@ By contributing to this project, you agree to license your work under the same l
 
 ## ❡ License
 
-This project is licensed under the BSD-3-Clause License. Refer to the `LICENSE` file that comes in its source code for license and copyright details.
+This is free software licensed under the BSD-3-Clause License that comes WITH NO WARRANTY. Refer to the `LICENSE` file that comes in its source code for license and copyright details.
 
 &ensp;
 <p align="center"><sup><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br />Made with love by skippyr <3</sup></p>
