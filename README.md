@@ -65,13 +65,13 @@ The following dependencies must be installed before installing it:
 git clone --depth 1 "https://github.com/skippyr/xcapy";
 ```
 
-- Access the repository directory using `cd`:
+- Access the directory of the repository you cloned using `cd`:
 
 ```sh
 cd "xcapy";
 ```
 
-- Use `make` to build and install the theme:
+- Use `make` to build and install it:
 
 ```sh
 make install;
@@ -82,8 +82,8 @@ make install;
 
 ## ❡ Uninstall
 
-- Go back to the repository directory.
-- Use `make` to uninstall the theme:
+- Go back to the directory of the repository you cloned.
+- Use `make` to uninstall it:
 
 ```sh
 make uninstall;

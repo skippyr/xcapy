@@ -1,4 +1,4 @@
-ICONS_PATH:=~/.local/share/icons
+ICONSPATH:=~/.local/share/icons
 SHELL:=bash
 
 .PHONY: all clean install uninstall
@@ -9,19 +9,19 @@ clean:
 	rm -rf build;
 
 install: all
-	mkdir -p ${ICONS_PATH};
-	cp -r build/xcapy ${ICONS_PATH};
+	mkdir -p ${ICONSPATH};
+	cp -r build/xcapy ${ICONSPATH};
 
 uninstall:
-	rm -rf ${ICONS_PATH}/xcapy;
+	rm -rf ${ICONSPATH}/xcapy;
 
 xcapy:
 	mkdir -p build/xcapy/cursors;
 	cp src/index.theme LICENSE build/xcapy;
 	cp -d src/symlinks/* build/xcapy/cursors;
-	for cursor_config in $(wildcard src/*.cfg); \
+	for c in $(wildcard src/*.cfg); \
 	do \
-		cursor=$${cursor_config##*/}; \
-		cursor=$${cursor%.*}; \
-		xcursorgen $${cursor_config} > build/xcapy/cursors/$${cursor}; \
+		f=$${c##*/}; \
+		f=$${f%.*}; \
+		xcursorgen $${c} > build/xcapy/cursors/$${f}; \
 	done
