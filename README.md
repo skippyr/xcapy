@@ -71,7 +71,7 @@ git clone --depth 1 "https://github.com/skippyr/xcapy";
 cd "xcapy";
 ```
 
-- Use `make` to build and install it:
+- Use `make` to install it (use `sudo` for system-wide scope):
 
 ```sh
 make install;
@@ -83,7 +83,7 @@ make install;
 ## ❡ Uninstall
 
 - Go back to the directory of the repository you cloned.
-- Use `make` to uninstall it:
+- Use `make` to uninstall it (use `sudo` for system-wide scope):
 
 ```sh
 make uninstall;
