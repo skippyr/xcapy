@@ -1,7 +1,7 @@
 ifeq ($(shell id -u), 0)
-	ICONS_DIRECTORY:=/usr/share/icons
+	ICONSPATH:=/usr/share/icons
 else
-	ICONS_DIRECTORY:=~/.local/share/icons
+	ICONSPATH:=~/.local/share/icons
 endif
 SHELL:=bash
 
@@ -13,11 +13,11 @@ clean:
 	rm -rf build;
 
 install: all
-	mkdir -p ${ICONS_DIRECTORY};
-	cp -r build/xcapy ${ICONS_DIRECTORY};
+	mkdir -p ${ICONSPATH};
+	cp -r build/xcapy ${ICONSPATH};
 
 uninstall:
-	rm -rf ${ICONS_DIRECTORY}/xcapy;
+	rm -rf ${ICONSPATH}/xcapy;
 
 xcapy:
 	mkdir -p build/xcapy/cursors;
